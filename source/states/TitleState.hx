@@ -42,8 +42,9 @@ class TitleState extends FlxState
 
 	override function update(elapsed:Float):Void
 	{
-		if (FlxG.keys.justPressed.Z && titleText.alpha == 1)
-			FlxG.switchState(new MainMenuState());
+		if (FlxG.keys.justPressed.Z || FlxG.keys.justPressed.ENTER && titleText.alpha == 1)
+			//FlxG.switchState(new MainMenuState());
+			FlxG.switchState(new PlayState());
 		else if (FlxG.keys.justPressed.F)
 			FlxG.fullscreen = !FlxG.fullscreen;
 		super.update(elapsed);

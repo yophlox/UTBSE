@@ -90,10 +90,10 @@
 	<haxedef name="HXCPP_STACK_TRACE" if="CRASH_HANDLER" />
 	<haxedef name='no-deprecation-warnings' />
 
-	<icon path="icon16.png" size='16'/>
-	<icon path="icon32.png" size='32'/>
-	<icon path="icon64.png" size='64'/>
-	<icon path="icon.png"/>
+	<icon path="art/icons/icon16.png" size='16'/>
+	<icon path="art/icons/icon32.png" size='32'/>
+	<icon path="art/icons/icon64.png" size='64'/>
+	<icon path="art/icons/icon.png"/>
 
 	<!--Place custom nodes like icons here (higher priority to override the HaxeFlixel icon)-->
 </project>

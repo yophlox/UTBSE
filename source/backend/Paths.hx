@@ -61,6 +61,11 @@ class Paths
 		return file('sounds/$key.$SOUND_EXT');
 	}
 
+	inline static public function soundSwag(key:String)
+		{
+			return file('sounds/$key.wav');
+		}
+
 	inline static public function soundRandom(key:String, min:Int, max:Int)
 	{
 		return file('sounds/$key${FlxG.random.int(min, max)}.$SOUND_EXT');
@@ -74,6 +79,11 @@ class Paths
 	inline static public function image(key:String)
 	{
 		return file('images/$key.png');
+	}
+
+	inline static public function battleimages(key:String)
+	{
+		return file('images/battlesprites/$key.png');
 	}
 
 	inline static public function font(key:String)
