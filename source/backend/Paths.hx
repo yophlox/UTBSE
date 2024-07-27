@@ -1,4 +1,4 @@
-package;
+package backend;
 
 #if sys
 import sys.FileSystem;
@@ -78,7 +78,7 @@ class Paths
 
 	inline static public function font(key:String)
 	{
-		return file('fonts/$key');
+		return file('fonts/$key.ttf');
 	}
 
 	inline static public function getSparrowAtlas(key:String)

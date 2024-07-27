@@ -1,7 +1,8 @@
-package;
+package states;
 
 import flixel.text.FlxText;
 import flixel.FlxState;
+import flixel.util.FlxColor;
 
 class PlayState extends FlxState
 {
@@ -9,8 +10,10 @@ class PlayState extends FlxState
 	{
 		super.create();
 
-		var text = new FlxText(0, 0, 0, "Hello World", 64);
-		text.screenCenter();
+		var text = new FlxText(0, 0, 0, "Guys this isn't finished yet :(", 64);
+		text.font = Paths.font('DTM-Sans');
+		text.color = FlxColor.WHITE;
+		text.screenCenter(X);
 		add(text);
 	}
 
