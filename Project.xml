@@ -32,7 +32,6 @@
 	<assets path="assets/music" embed='true'/>
 	<assets path="assets/sounds" embed='true'/>
 
-
 	<!-- _______________________________ Libraries ______________________________ -->
 
 	<haxelib name="flixel" />
@@ -83,11 +82,6 @@
 
 	<!-- _________________________________ Custom _______________________________ -->
 
-	<haxedef name="ErrorDialog" if="desktop" />
-
-	<haxedef name="HXCPP_CHECK_POINTER" if="CRASH_HANDLER" />
-	<haxedef name="HXCPP_STACK_LINE" if="CRASH_HANDLER" />
-	<haxedef name="HXCPP_STACK_TRACE" if="CRASH_HANDLER" />
 	<haxedef name='no-deprecation-warnings' />
 
 	<icon path="art/icons/icon16.png" size='16'/>
