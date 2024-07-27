@@ -1,2 +1,2 @@
-# FlxUTBE
-A mix of two Undertale HaxeFlixel engines.
+# UTBSE
+An Undertale Battle System Engine made in HaxeFlixel
