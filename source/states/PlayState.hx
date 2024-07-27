@@ -125,8 +125,14 @@ class PlayState extends FlxState
 					switch (actions[selected])
 					{
 						case 'Fight' | 'Talk':
+							actionselected = false;
+							changeChoice();
 						case 'Item':
+							actionselected = false;
+							changeChoice();
 						case 'Spare':
+							actionselected = false;
+							changeChoice();
 					}
 				}
 			}
