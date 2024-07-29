@@ -51,13 +51,19 @@ class PlayState extends FlxState
 
 		//monster = new Monster(0, 0, "Ty");
 		// template monster lol:
-		monster = new Monster(0, 0, "Template");
+        monster = new Monster(100, 100, "Template");
 		monster.data.health = 25;
 		monster.data.maxHealth = 25;
 		monster.data.attack = 5;
 		monster.data.defense = 1;
 		monster.data.xpReward = 10;
 		monster.data.goldReward = 2;
+
+		var monsterSprite:FlxSprite = new FlxSprite(0, 0);
+		monsterSprite.loadGraphic("assets/images/monsters/" + monster.data.name + ".png");
+		monsterSprite.screenCenter(X);
+		monsterSprite.scale.set(0.3, 0.3);
+		add(monsterSprite);
 
         var bottomY = FlxG.height - 100;
 
@@ -114,7 +120,8 @@ class PlayState extends FlxState
 		add(box);
 
 		//defaultText = '* Ya know, it\'s funny how\n  it all lead to this.'; // oh em gee FlixelTale Ty fight leak?!?!??!
-		defaultText = '* You feel like you\'re going to\n  have a bad time.';
+		//defaultText = '* You feel like you\'re going to\n  have a bad time.'; // sans text
+		defaultText = '* Template Text';
 		dialogText = new FlxTypeText(box.x + 14, box.y + 14, Std.int(box.width), defaultText, 32, true);
 		dialogText.font = Paths.font('DTM-Mono');
 		dialogText.sounds = [FlxG.sound.load(Paths.soundSwag("txt2"), 0.86)];
