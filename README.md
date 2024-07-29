@@ -1,6 +1,8 @@
 # UTBSE
 An Undertale Battle System Engine made in HaxeFlixel
 
+* Make sure to check out the [docs!](https://github.com/yophlox/UTBSE/tree/main/docs) to learn how to do custom stuff
+
 # How 2 build
 
 ```
