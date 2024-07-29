@@ -4,3 +4,7 @@
 * Make sure to name the png to whatever your monsters name is (so if your monster is named "Sans" you'd name the file "Sans.png")
 * Place the png in "assets/images/monsters"
 * Profit
+
+# TODO:
+
+* Spritesheets and anims
