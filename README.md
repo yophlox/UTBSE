@@ -8,5 +8,5 @@ An Undertale Battle System Engine made in HaxeFlixel
 ```
 haxelib install hmm (if you don't already have it installed)
 haxelib run hmm install
-lime run [insert device here] (windows, mac, linux, android, or ios)
+lime build [insert device here] (windows, mac, linux, android, or ios)
 ```
